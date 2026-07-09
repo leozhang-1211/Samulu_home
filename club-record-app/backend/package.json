@@ -1,0 +1,14 @@
+{
+  "name": "club-backend",
+  "version": "1.0.0",
+  "description": "社團家訪系統後端 API",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "google-spreadsheet": "^4.1.1"
+  }
+}

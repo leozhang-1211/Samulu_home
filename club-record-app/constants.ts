@@ -1,0 +1,56 @@
+import { MapCoordinate } from './types';
+
+export const MAP_COORDINATES: MapCoordinate[] = [
+  { id: 1, x: 75, y: 58 },
+  { id: 2, x: 58, y: 90 },
+  { id: 3, x: 46, y: 58 },
+  { id: 4, x: 38, y: 75 },
+  { id: 5, x: 33, y: 60 },
+  { id: 6, x: 28, y: 75 },
+  { id: 7, x: 25, y: 60 },
+  { id: 8, x: 23, y: 75 },
+  { id: 9, x: 90, y: 48 },
+  { id: 10, x: 84, y: 48 },
+  { id: 11, x: 75, y: 50 },
+  { id: 12, x: 67, y: 55 },
+  { id: 13, x: 62, y: 55 },
+  { id: 14, x: 62, y: 40 },
+  { id: 15, x: 62, y: 32 },
+  { id: 16, x: 68, y: 32 },
+  { id: 17, x: 52, y: 40 },
+  { id: 18, x: 44, y: 35 },
+  { id: 19, x: 41, y: 35 },
+  { id: 20, x: 40, y: 55 },
+  { id: 21, x: 38, y: 40 },
+  { id: 22, x: 35, y: 40 },
+  { id: 23, x: 33, y: 52 },
+  { id: 24, x: 31, y: 40 },
+  { id: 25, x: 25, y: 38 },
+  { id: 26, x: 18, y: 35 },
+  { id: 27, x: 14, y: 30 },
+  { id: 28, x: 9, y: 25 },
+  { id: 29, x: 33, y: 28 },
+  { id: 30, x: 28, y: 23 },
+  { id: 31, x: 22, y: 18 },
+  { id: 32, x: 12, y: 12 },
+  { id: 33, x: 75, y: 35 },
+  { id: 34, x: 85, y: 30 },
+  { id: 35, x: 66, y: 18 },
+  { id: 36, x: 58, y: 15 },
+  { id: 37, x: 61, y: 23 },
+  { id: 38, x: 50, y: 20 },
+  { id: 39, x: 65, y: 5 },
+  { id: 40, x: 71, y: 58 },
+  { id: 41, x: 58, y: 32 },
+];
+
+export const INITIAL_HOUSEHOLDS = [
+  { id: 1, name: "王大明", phone: "0912-345-678", address: "村莊路1號", notes: "家中有長輩" },
+  { id: 2, name: "李小華", phone: "0922-333-444", address: "村莊路2號", notes: "需要物資協助" },
+  { id: 18, name: "百恩商店", phone: "03-1234567", address: "中心街", notes: "雜貨店，可詢問村莊近況" },
+];
+
+export const INITIAL_RECORDS = [
+  { id: "r1", householdId: 1, date: "2023-10-25", visitors: "張三, 李四", content: "送達秋季物資，長輩健康狀況良好。" },
+  { id: "r2", householdId: 2, date: "2023-11-02", visitors: "王五", content: "了解孩童就學狀況，預計下次補充電腦設備。" },
+];
