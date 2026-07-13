@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Map as MapIcon, List, Settings, Users } from 'lucide-react';
 import { MapView } from './components/MapView';
 import { ListView } from './components/ListView';
-import { SettingsView } from './components/SettingsView';
 
 type Tab = 'map' | 'list' | 'settings';
 
@@ -43,7 +42,7 @@ const App: React.FC = () => {
                 }`}
               >
                 <List size={18} />
-                <span className="hidden sm:inline">列表模式</span>
+                <span className="hidden sm:inline">列表模式-還沒做</span>
               </button>
               <button
                 onClick={() => setActiveTab('settings')}
@@ -53,8 +52,6 @@ const App: React.FC = () => {
                     : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900'
                 }`}
               >
-                <Settings size={18} />
-                <span className="hidden sm:inline">系統設定</span>
               </button>
             </nav>
           </div>
@@ -65,7 +62,6 @@ const App: React.FC = () => {
       <main className="flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6 lg:p-8">
         {activeTab === 'map' && <MapView />}
         {activeTab === 'list' && <ListView />}
-        {activeTab === 'settings' && <SettingsView />}
       </main>
     </div>
   );
