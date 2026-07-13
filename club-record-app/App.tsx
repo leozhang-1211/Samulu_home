@@ -18,7 +18,7 @@ const App: React.FC = () => {
               <div className="bg-blue-600 p-2 rounded-lg">
                 <Users className="text-white" size={24} />
               </div>
-              <h1 className="text-xl font-bold text-slate-800 tracking-wide">社團家訪紀錄系統</h1>
+              <h1 className="text-xl font-bold text-slate-800 tracking-wide">新武家訪紀錄系統</h1>
             </div>
             
             <nav className="flex space-x-1 sm:space-x-4 items-center">
